@@ -1,0 +1,23 @@
+<html>
+<body>
+<script>
+	var booked,cost;
+	booked=window.prompt("enter no of tickets","");
+	if(booked==0 ||booked==1|| booked==2)
+	{
+		 cost=booked*150;
+		document.write("Total cost is "+cost);
+	}
+	else if(booked>=6)
+	{
+		document.write("Booking is not allowed");
+	}
+	else
+	{
+		cost=(booked*150);	
+		var cost1=cost-(cost*0.1);
+		document.write("Total cost is "+cost1);
+	}
+</script>
+</body>
+</html>
