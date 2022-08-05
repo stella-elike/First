@@ -1,0 +1,21 @@
+<html>
+<body>
+<script>
+num=new Array(6,7,2,1,5);
+num1=new Array(63,71,23,18,45);
+document.write("Array is "+num+"<br>");
+
+document.write("sorted array is "+num.sort()+"<br>");
+document.write(num.join("_"));
+num.push(30);
+document.write("After adding an element the array is "+num+"<br>");
+num.pop();
+document.write("After pop  the array is "+num+"<br>");
+num.shift();
+document.write("After shift array is "+num+"<br>");
+num.unshift(1);
+document.write("After unshift array is "+num+"<br>");
+document.write("After concatenation array is "+num.concat(num1));
+</script>
+</body>
+</html>
