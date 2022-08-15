@@ -1,0 +1,20 @@
+<html>
+<style>
+body{background-color:powderblue;}
+</style>
+<body>
+<script>
+const days=["sun","mon","tue","wed","thur","fri","sat"];
+const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var d=new Date();
+document.write("Date  "+d);
+var day=d.getDay();
+var month=d.getMonth();
+var year=d.getFullYear();
+document.write("<br>");
+document.write("Day is "+days[day]+"<br>");
+document.write("Month is "+months[month]+"<br>");
+document.write("Year is "+year+"<br>");
+</script>
+</body>
+</html>
